@@ -1,0 +1,6 @@
+
+
+
+Select initial conditions for the masses, lengths , and angles of the double pendulum.
+In the same file, next the "method" put 1 for Euler, 2 for Eule-Cromer, and 3 for 4th Runge-Kutta.
+'Time step' is the interval between cycles of the method in seconds.

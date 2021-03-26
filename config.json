@@ -1,0 +1,11 @@
+{
+    "Method" : 3,
+    "Mass A" : 1,
+    "Mass B" : 1,
+    "Length A" : 1,
+    "Length B" : 1,
+    "Angle A" : 90,
+    "Angle B" : 90,
+    "Time Step": 0.01,
+    "Number of Cycles" : 1000
+}
