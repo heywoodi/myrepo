@@ -1,8 +1,6 @@
 import numpy as np
 import json
-#module of graphing functions
-
-
+# A Module of graphing functions
 
 def getTime(Data):
     ''' returns an np array
@@ -12,7 +10,7 @@ def getTime(Data):
     for n in Data:
         time.append(n[0])
     return np.array(time)
-
+    
 def getx1(Data):
     ''' returns an np array
     of x1 position values from

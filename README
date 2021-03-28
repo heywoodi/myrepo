@@ -1,6 +1,10 @@
 
+set initial conditions of the pendulum in the config file
+'method' is set to 1, 2, or 3, and corresponds to euler, euler-cromer, and 4th order Runge-Kutta methods respectively.
+time step is the time step for the methods to run (dt), and 'Number Of Cycles" corresponds to the amount of times to run the method
+
+run the simulation with method.py to produce a datafile.npy, and graph energies of the system with egraphs.py, and momentums with pgraphs.py
 
 
-Select initial conditions for the masses, lengths , and angles of the double pendulum.
-In the same file, next the "method" put 1 for Euler, 2 for Eule-Cromer, and 3 for 4th Runge-Kutta.
-'Time step' is the interval between cycles of the method in seconds.
+
+simulation time = time step x number of cycles.
